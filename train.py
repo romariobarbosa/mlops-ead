@@ -119,9 +119,9 @@ def config_mlflow():
     Returns:
         None
     """
-    os.environ['MLFLOW_TRACKING_USERNAME'] = 'renansantosmendes'
-    os.environ['MLFLOW_TRACKING_PASSWORD'] = '6d730ef4a90b1caf28fbb01e5748f0874fda6077'
-    mlflow.set_tracking_uri('https://dagshub.com/renansantosmendes/mlops-ead-2025.mlflow')
+    os.environ['MLFLOW_TRACKING_USERNAME'] = 'romariobarbosa'
+    os.environ['MLFLOW_TRACKING_PASSWORD'] = '9d3a9371baa9cd6ecbec014f37a6600cff31b434'
+    mlflow.set_tracking_uri('https://dagshub.com/romariobarbosa/mlops-ead.mlflow')
 
     mlflow.keras.autolog(log_models=True,
                          log_input_examples=True,
